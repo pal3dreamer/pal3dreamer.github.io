@@ -1,20 +1,20 @@
-baseURL = "https://example.com"
+baseURL = "https://pal3dreamer.github.io/"
 languageCode = "en-us"
-title = "Pale-dreamer"
+title = "paledreamer's Blog"
 theme="archie"
-copyright = "© Pale-dreamer"
+copyright = "© paledreamer"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
 	mode="auto"
-	useCDN=false
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	useCDN=true
+	subtitle = "CTF writeups and blog posts"
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/pale-dreamer"
+url = "https://github.com/pal3dreamer"
 
 [[menu.main]]
 name = "Home"
@@ -25,13 +25,18 @@ weight = 1
 name = "All posts"
 url = "/posts"
 weight = 2
-
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
+name = "Writeups"
+url = "/writeups"
+weight = 2
+// [[menu.main]]
+// name = "About"
+//url = "/about"
+//weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 4
+
+
