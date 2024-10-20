@@ -29,10 +29,10 @@ weight = 2
 name = "Writeups"
 url = "/writeups"
 weight = 2
-// [[menu.main]]
-// name = "About"
-//url = "/about"
-//weight = 3
+# [[menu.main]]
+# name = "About"
+#url = "/about"
+#weight = 3
 
 [[menu.main]]
 name = "Tags"
